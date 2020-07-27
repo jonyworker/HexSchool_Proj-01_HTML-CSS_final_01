@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>六角 HTML CSS教學最終作業</title>
+  <!-- reset css -->
+  <link rel="stylesheet" href="./css/resetcss.css">
+  <!-- import fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap" rel="stylesheet">
+  <!-- import css -->
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+  <div class="container-1024">
+    <section class="top-bar">
+      <div class="top-bar-head">
+        <ul class="fan-club d-flex-row flex-jc-end px-3">
+          <li><a href="#">粉絲團</a></li>
+          <li><a href="#">追蹤我們</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-body d-flex-row flex-jc-between flex-align-center">
+        <img src="./images/logo.png" alt="logo">
+        <ul class="contact d-flex-row">
+          <li><a class="fz-15" href="#">首頁</a><div class="blocks"></div></li>
+          <li><a class="fz-15" href="#">產品介紹</a></li>
+          <li><a class="fz-15" href="#">聯絡我們</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <header class="banner">
+      <div class="title">
+        <h1 class="fz-36">六角學院<br>讓您奠定良好前端基礎</h1>
+      </div>
+    </header>
+    
+    <section class="about">
+      <ul class="card d-flex-row flex-jc-between">
+        
+        <li class="d-flex-column flex-align-end">
+          <div class="card-photo d-flex-row flex-jc-center flex-align-center mb-3">
+            <img src="./images/html.png" alt="">
+          </div>
+          <h3 class="fz-18 mb-3">Html 5 基礎教學</h3>
+          <p class="fz-15">主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+        </li>
+
+        <li class="d-flex-column flex-align-end">
+          <div class="card-photo d-flex-row flex-jc-center flex-align-center mb-3">
+            <img src="./images/rwd.png" alt="">
+          </div>
+          <h3 class="fz-18 mb-3">響應式網站設計</h3>
+          <p class="fz-15">響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+        </li>
+
+        <li class="d-flex-column flex-align-end">
+          <div class="card-photo d-flex-row flex-jc-center flex-align-center mb-3">
+            <img src="./images/jQuery.png" alt="">
+          </div>
+          <h3 class="fz-18 mb-3">jQuery 實戰教學</h3>
+          <p class="fz-15">本課程有以下特色</p>
+          <ul>
+            <li>瞭解變數的使用方法</li>
+            <li>學習並操作DOM</li>
+            <li>學習基本數學運算方法</li>
+            <li>套件的操作及運用</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="difference">
+      <h2 class="fz-24">線上及實體課程的差異</h2>
+      <table>
+        <tr>
+          <th class="fz-15">項目</th>
+          <th class="fz-15">HexSchool 線上課程</th>
+          <th class="fz-15">一般線上課程</th>
+          <th class="fz-15">實體課程</th>
+        </tr>
+        <!-- 費用 -->
+        <tr>
+          <td class="fz-15">費用</td>
+          <td class="fz-15"><span>較低</span></td>
+          <td class="fz-15">較低</td>
+          <td class="fz-15">較高</td>
+        </tr>
+        <!-- 學習成效 -->
+        <tr>
+          <td class="fz-15">學習成效</td>
+          <td class="fz-15">一般</td>
+          <td class="fz-15"><span>較低</span></td>
+          <td class="fz-15"><span>很好</span></td>
+        </tr>
+        <!-- Code review -->
+        <tr>
+          <td class="fz-15">Code review</td>
+          <td class="fz-15"><span>有</span></td>
+          <td class="fz-15">無</td>
+          <td class="fz-15">不一定</td>
+        </tr>
+        <!-- 課程更新進度 -->
+        <tr>
+          <td class="fz-15">課程更新進度</td>
+          <td class="fz-15"><span>普通</span></td>
+          <td class="fz-15"><span>普通</span></td>
+          <td class="fz-15">較慢</td>
+        </tr>
+        <!-- 多次練習 -->
+        <tr>
+          <td class="fz-15">多次練習</td>
+          <td class="fz-15"><span>可</span></td>
+          <td class="fz-15">可</td>
+          <td class="fz-15">不可</td>
+        </tr>
+        <!-- 字幕 -->
+        <tr>
+          <td class="fz-15">字幕</td>
+          <td class="fz-15"><span>有</span></td>
+          <td class="fz-15">不一定</td>
+          <td class="fz-15">板書</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section class="form-wrap">
+      <h2 class="fz-24">對我們的課程有興趣嗎？<br>歡迎留下您的資料</h2>
+      <form class="form-textarea d-flex-row flex-jc-between" action="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="form-info d-flex-column">
+          <label class="fz-15" for="name">姓名</label>
+          <input type="text" name="name" id="name" placeholder="六角講師">
+          <label class="fz-15" for="tel">電話</label>
+          <input type="tel" name="tel" id="tel" placeholder="0912345678">
+          <label class="fz-15" for="email">信箱</label>
+          <input type="email" name="email" id="email" placeholder="hexschool@gmail.com">
+          
+          <input type="submit" value="送出">
+        </div>
+      </form>
+    </section>
+    
+    <footer class="footer">
+      <div class="d-flex-row flex-jc-between flex-align-center">
+        <img src="images/footerLogo.png" alt="logo">
+        <ul>
+          <li>聯絡我們：<a href="mailto:hexschool@gmail.com">hexschool@gmail.com</a></li>
+          <li>電話：<a href="tel:0999123456">0999123456</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+    
+</body>
+</html>
